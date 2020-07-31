@@ -2,5 +2,5 @@
 FROM archlinux
 RUN pacman -Syu --noconfirm && \
     pacman -S --noconfirm make cmake gcc && \
-    pacman -Scc
+    pacman -Scc --noconfirm
 RUN pacman -Q
